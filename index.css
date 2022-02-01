@@ -1,0 +1,27 @@
+body {
+    background: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+}
+
+h1,h2,a {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.btn {
+    background: hsl(245, 75%, 52%);
+    color: white;
+}
+
+.order-summary {
+    background: white
+}
+
+.columns {
+    display: flex;
+}
