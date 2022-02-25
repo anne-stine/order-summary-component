@@ -6,52 +6,40 @@
   
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   
   <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
   <section class="order-summary">
-
-    <div class="hero">
-      <img src="images/illustration-hero.svg">
-    </div>
-
     <h1>Order Summary</h1>
 
     <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
     device anywhere you like!</p>
 
     <div class="columns">
-
       <div class="col">
-        <img src="images/icon-music.svg">
+      <img src="images/icon-music.svg">
       </div>
 
-      <div class="col">
+      <div class="col" style="flex-basis:50%">
         <h2>Annual Plan</h2>
-        <p>$59.99/year</p>
+        <p class="price">$59.99/year</p>
       </div>
       
       <div class="col">
         <p><a href="index.html">Change</a></p>
       </div>
-
     </div>
 
-    <button>Proceed to Payment</button>
-    <button>Cancel Order</button>
+    <button class="button-proceed">Proceed to Payment</button>
+    <button class="button-cancel">Cancel Order</button>
   </section>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/anne-stine">Anne-Stine Gjervoldstad</a>.
   </div>
 </body>
 </html>
